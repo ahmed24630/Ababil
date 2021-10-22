@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.AbabilFlightController_Android"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="18"
+8-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:7:1-81
+12        android:name="android.hardware.usb.host"
+12-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:7:15-55
+13        android:required="true" />
+13-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:7:56-79
+14
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:20:4-74
+15-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:20:21-72
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:21:1-62
+16-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:21:18-60
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:22:1-74
+17-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:22:18-72
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:23:1-74
+18-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:23:18-72
+19    <uses-permission android:name="android.permission.BLUETOOTH" />
+19-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:24:1-63
+19-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:24:18-61
+20    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+20-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:25:1-69
+20-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:25:18-67
+21
+22    <application
+22-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:8:1-19:19
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.0.0] C:\Users\AA\.gradle\caches\transforms-2\files-2.1\de66cade21afc2c94a5efde307d3b93e\core-1.0.0\AndroidManifest.xml:22:18-86
+24        android:debuggable="true"
+25        android:icon="@drawable/ic_launcher"
+25-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:8:14-50
+26        android:label="@string/app_name"
+26-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:8:51-83
+27        android:theme="@style/MWAppTheme" >
+27-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:9:17-50
+28        <activity
+28-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:10:9-16:20
+29            android:name="com.example.AbabilFlightController_Android.AbabilFlightController_Android"
+29-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:10:52-97
+30            android:configChanges="orientation|screenSize"
+30-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:11:63-109
+31            android:label="@string/app_name"
+31-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:10:19-51
+32            android:theme="@style/MWAppTheme.NoActionBar" >
+32-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:11:17-62
+33            <intent-filter>
+33-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:12:13-15:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:13:17-68
+34-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:13:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:14:17-76
+36-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:14:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:17:2-63
+41            android:name="com.example.AbabilFlightController_Android.UsbService"
+41-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:17:11-37
+42            android:enabled="true" />
+42-->C:\Users\AA\Desktop\Ababil\Ababil_Android_App\AbabilFlightController_Android_ert_rtw\AbabilFlightController_Android\src\main\AndroidManifest.xml:17:38-60
+43    </application>
+44
+45</manifest>
